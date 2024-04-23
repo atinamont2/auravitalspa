@@ -75,6 +75,10 @@ footer {
 }
 
 @media only screen and (max-width: 768px) {
+
+    #header-content {
+        margin-top: 30px;
+    }
  
     header {
         align-items: center;
@@ -99,7 +103,8 @@ footer {
     }
 
     #title {
-        font-size: 24px;
+        font-size: 30px;
+        padding-top: 10px;
     }
 
     #subtitle {

@@ -128,15 +128,20 @@ footer {
 }
 
 @media only screen and (max-width: 1024px) {
-
-    header {
-        align-items: center;
-    }
-
     header nav {
         justify-content: center;
         text-align: center;
-        font-size: 10px;
+        font-size: 16px;
+    }
+
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-end;
+    }
+
+    header nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
     }
     main {
         align-items: center;
@@ -156,20 +161,17 @@ footer {
         font-weight: 100;
     }
 
-    #logo {
-        height: 40px;
-        width: 40px;
-    }
       
     #title {
-        font-size: 24px;
+        font-size: 45px;
+        padding-top: 10px;
     }
 
     #subtitle {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     footer {
-       font-size: 12px;
+        font-size: 12px;
     }
 }

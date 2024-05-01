@@ -1,9 +1,9 @@
 
 body {
-    display: flex;
-    flex-direction: column;
-        background-image: url('https://images.pexels.com/photos/6621465/pexels-photo-6621465.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2');
-        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        background-image: none;
+        background-color: #DEDAD4;
         background-position: center;
         height: 100vh; 
         font-family: "Inter", sans-serif;
@@ -76,42 +76,37 @@ footer {
 
 @media only screen and (max-width: 768px) {
 
-    #header-content {
-        margin-top: 30px;
-    }
- 
-    header {
-        align-items: center;
-    }
-
     header nav {
         justify-content: center;
         text-align: center;
-        font-size: 10px;
-    }
-    main {
-        align-items: center;
+        font-size: 16px;
     }
 
-    #logo {
-        height: 40px;
-        width: 40px;
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-end;
     }
 
-    main {
-       width: 100%;
+    header nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 
     #title {
-        font-size: 30px;
+        font-size: 45px;
         padding-top: 10px;
     }
 
     #subtitle {
-        font-size: 12px;
+        font-size: 16px;
+    }
+
+    #soap {
+        width: 250px;
+        height: 250px;
     }
 
     footer {
-       font-size: 12px;
-    }
+        font-size: 12px;
+    }    
 }

@@ -1,9 +1,7 @@
 body {
-    display: flex;
-    flex-direction: column;
-        background-image: url('https://i.pinimg.com/736x/61/54/58/615458954841c1885c97f1bf45c55994.jpg');
-        background-size: cover;
-        background-position: center;
+        display: flex;
+        flex-direction: column;
+        background-color: #aec2c4;
         height: 100vh; 
         font-family: "Inter", sans-serif;
         font-weight:100;
@@ -98,43 +96,32 @@ footer {
 
 @media only screen and (max-width: 768px) {
  
-    header {
-        align-items: center;
-    }
-
     header nav {
         justify-content: center;
         text-align: center;
-        font-size: 10px;
-    }
-    main {
-        align-items: center;
-        font-size: 14px;
+        font-size: 16px;
     }
 
-    .bolder {
-        font-size: 14px;
-        font-weight: 100;
+    header nav ul {
+        flex-direction: column;
+        align-items: flex-end;
     }
 
-    #logo {
-        height: 40px;
-        width: 40px;
-    }
-
-    main {
-       width: 100%;
+    header nav ul li {
+        margin-right: 0;
+        margin-bottom: 10px;
     }
 
     #title {
-        font-size: 24px;
+        font-size: 45px;
+        padding-top: 10px;
     }
 
     #subtitle {
-        font-size: 12px;
+        font-size: 18px;
     }
 
     footer {
-       font-size: 12px;
+        font-size: 12px;
     }
 }
